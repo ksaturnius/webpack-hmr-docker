@@ -1,0 +1,40 @@
+{
+  "name": "webpack-hmr-docker",
+  "version": "1.0.0",
+  "description": "Webpack with HMR on docker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build-dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szujak/webpack-hmr-docker.git"
+  },
+  "keywords": [
+    "webpack",
+    "hmr",
+    "docker",
+    "hot",
+    "module",
+    "reload"
+  ],
+  "author": "Adam Szajuk <szujak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szujak/webpack-hmr-docker/issues"
+  },
+  "homepage": "https://github.com/szujak/webpack-hmr-docker#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  }
+}
