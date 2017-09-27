@@ -1,4 +1,4 @@
-FROM node:8.5.0
+FROM node:8.6.0
 
 ENV PORT=3000
 ENV NODE_ENV=development
